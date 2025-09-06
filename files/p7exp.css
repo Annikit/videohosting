@@ -1,0 +1,81 @@
+#menuwrapper {
+}
+.clearit {
+	clear: both;
+	height: 0;
+	line-height: 0.0;
+	font-size: 0;
+}
+#p7menubar, #p7menubar ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: Arial;
+}
+#p7menubar a {
+	font-family:Arial;
+	display: block;
+	text-decoration: none;
+	padding: 7px 16px 8px 16px;
+	border-right: 1px solid #FFF;
+	font-size: 12px;
+	color: #FFF;
+}
+#p7menubar a.trigger {
+	font-family:Arial;
+	padding: 7px 16px 8px 16px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+#p7menubar li {
+	float: left;
+	width: 200px;
+}
+#p7menubar li ul, #p7menubar ul li  {
+	width: 200px;
+}
+#p7menubar ul li a  {
+	font-family:Arial;
+	color: #565656;
+	border-right: 0;
+	padding: 3px 12px 3px 23px;
+}
+#p7menubar li ul {
+	position: absolute;
+	margin-left: -1px;
+	display: none;
+	background-color: #f4a967;
+	border-left: 1px solid #FFF;
+	border-top: 0px solid #333333;
+	border-right: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	background-image: url(/images/p7exp_mgrad.jpg);
+	background-repeat: repeat-x;
+}
+#p7menubar li:hover a, #p7menubar a:focus,
+#p7menubar a:active, #p7menubar li.p7hvr a {
+	font-family:Arial;
+	color: #FFF;
+	text-decoration:underline;
+	background-color: #e67a17;
+}
+#p7menubar li:hover ul, #p7menubar li.p7hvr ul {
+	display: block;
+}
+#p7menubar li:hover ul a, #p7menubar li.p7hvr ul a {
+	font-family:Arial;
+	color: #fff;
+	text-decoration:none;
+	font-weight: bold;
+	background-color: transparent;
+	font-size:11px;
+}
+#p7menubar ul a:hover {
+	font-family:Arial;
+	font-weight: bold;
+	font-size:11px;
+	background:url(/images/p7exp_active2.jpg);
+	background-color: #e6750d!important;
+	color: #FFFFFF!important;
+}
+#p7menubar li {width: auto;}
